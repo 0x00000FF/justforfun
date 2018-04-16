@@ -17,13 +17,6 @@ namespace Kiwi3Lang
         firebase = 1, unity = 2, vuejs = 3
     }
 
-    /*
-     * TODO: 낄낄타임, 오징어, 서당개
-     * 
-     * 
-     * 
-     */ 
-
     static class Program
     {
         const short GAME_TICK = 5;
