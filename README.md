@@ -4,4 +4,4 @@ This repository contains messy codes which is written for **Just for Fun**.
 These codes will be refactored when I'm free to do it.
 
 # Kiwi3Lang
-Kiwi3Lang is a game made with SFML, it is variant of Snake game.
+Kiwi3Lang is a game made with SFML.NET, it is variant of Snake game. C++ portage planned.
