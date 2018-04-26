@@ -1,13 +1,14 @@
 #include <stdio.h>
 #define YEAR 2018
 
-
 int main()
 {
     int month, date, day = 1, last_month_it, last_weeks, last_days, next_days, next_day;
     char* month_names[] = { "January", "February", "March", "April", "May", "June", 
                             "July", "August", "September", "October", "November", "December" };
     int days[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+
+    printf("%d CALENDAR\n", YEAR);
 
     if (YEAR % 4 == 0) days[1]++;
 
