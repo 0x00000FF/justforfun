@@ -1,4 +1,6 @@
 #include <stdio.h>
+#define YEAR 2018
+
 
 int main()
 {
@@ -6,6 +8,8 @@ int main()
     char* month_names[] = { "January", "February", "March", "April", "May", "June", 
                             "July", "August", "September", "October", "November", "December" };
     int days[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+
+	if (YEAR % 4 == 0) days[1]++;
 
     for (month = 1; month <= 12; ++month)
     {
